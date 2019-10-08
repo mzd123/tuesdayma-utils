@@ -13,6 +13,13 @@ public class ZipDemo {
 
     @Test
     public void doUnzip() {
-        ZipUtils.unzip("C:\\Users\\tuesd\\Desktop\\temp\\test.zip", "C:\\Users\\tuesd\\Desktop\\temp", true, new ArrayList<>());
+        ZipUtils.unZip("C:\\Users\\tuesd\\Desktop\\temp\\test.zip", "C:\\Users\\tuesd\\Desktop\\temp", true, new ArrayList<>());
     }
+
+    @Test
+    public void doZip() {
+        ZipUtils.doZip("C:\\Users\\tuesd\\Desktop\\temp", "C:\\Users\\tuesd\\Desktop\\test\\aaa.zip");
+    }
+
+
 }
