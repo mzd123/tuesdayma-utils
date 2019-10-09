@@ -1,7 +1,6 @@
 package com.china.tuesdayma.security;
 
 import com.china.tuesdayma.common.Parse;
-import com.sun.crypto.provider.AESKeyGenerator;
 import org.apache.commons.codec.binary.Base64;
 
 import javax.crypto.*;
