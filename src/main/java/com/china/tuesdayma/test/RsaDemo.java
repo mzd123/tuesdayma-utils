@@ -19,7 +19,7 @@ import java.util.HashMap;
 public class RsaDemo {
 
     @Test
-    public void AesTest() throws IllegalBlockSizeException, InvalidKeyException, BadPaddingException, NoSuchAlgorithmException, NoSuchPaddingException, UnsupportedEncodingException, InvalidKeySpecException {
+    public void RsaTest() throws IllegalBlockSizeException, InvalidKeyException, BadPaddingException, NoSuchAlgorithmException, NoSuchPaddingException, UnsupportedEncodingException, InvalidKeySpecException {
         HashMap<String, String> keyStr = RsaUtils.getPublicKeyAndPrivateKey();
         String publicKey = keyStr.get("publicKey");
         String privateKey = keyStr.get("privateKey");
